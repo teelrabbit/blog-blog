@@ -1,1 +1,34 @@
+name: Netlify Build and Deploy
+
+on:
+  push:
+    branches:
+      - main # adjust this branch if needed
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '14'
+
+    - name: Install Netlify CLI, npm, and Hugo
+      run: |
+        npm install -g netlify-cli
+        npm install
+        sudo apt-get install hugo  # Adjust based on your OS, this is for Ubuntu
+
+    - name: Build and Deploy to Netlify
+      run: |
+        netlify build
+        netlify deploy --prod
+      env:
+        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }} # You need to set up a Netlify API token as a secret in your repository
+
 
