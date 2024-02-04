@@ -27,7 +27,7 @@ jobs:
     - name: Build and Deploy to Netlify
       run: |
         export CI=true
-        netlify build
+        netlify build --command="hugo"
         netlify deploy --prod
       env:
         NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }} # You need to set up a Netlify API token as a secret in your repository
