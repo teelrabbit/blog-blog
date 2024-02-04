@@ -26,6 +26,7 @@ jobs:
 
     - name: Build and Deploy to Netlify
       run: |
+        export CI=true
         netlify build
         netlify deploy --prod
       env:
