@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html class="js no-touch  progressive-image  no-reduced-motion progressive" lang="en">
+  <head>
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="/img/favicon.ico">
+
+    <meta name="keyword" content=""><meta property="og:title" content="Demo" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/tags/demo/" />
+<title>Demo</title>
+
+    <link rel="canonical" href="/tags/demo/">
+
+    <link rel="stylesheet" href="/css/global.css">
+
+    <link rel="stylesheet" href="/css/custom.css">
+
+    <link rel="stylesheet" href="/css/search.css" />
+
+    
+    
+
+    
+    
+
+</head>
+  </head>
+  <body class=" page-landing   ">
+    <header>
+      <nav class="nav">
+  <div class="nav-wrapper">
+    <div class="nav-content-wrapper">
+      <div class="nav-content">
+        <a href="/ " class="nav-title">Home</a>
+        <div class="nav-menu">
+          <div class="nav-item-wrapper">
+            <a href="/posts " class="nav-item-content">Articles</a>
+          </div><div class="nav-item-wrapper">
+            <a href="/about" class="nav-item-content">About</a>
+          </div><div class="nav-item-wrapper">
+            <a href="/index.xml" class="nav-item-content" target="_blank">RSS</a>
+          </div></div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<script>
+  function toggleSearchModal(){
+    const template = `
+    <div class="modal-body">
+      <div id="autocomplete" onclick="event.stopPropagation();"></div>
+    </div>
+    `
+    const modal = document.querySelector("#modal-wrapper")
+    if(!modal){
+      const div = document.createElement("div")
+      document.body.setAttribute("style","overflow: hidden;")
+      div.setAttribute("id", "modal-wrapper")
+      div.setAttribute("onclick", "toggleSearchModal()")
+      div.innerHTML = template
+      const script = document.createElement("script");script.setAttribute("src", "/js/algolia.js")
+      div.appendChild(script)
+      document.body.append(div)
+    } else {
+      document.body.removeAttribute("style")
+      document.body.removeChild(modal)
+    }
+  }
+</script>
+    </header>
+    
+<div class="results">
+    <div class="results__content">
+      <div class="result" role="group">
+        <h2 class="result__title">“Demo”</h2>
+          
+          
+
+    
+<a href="/posts/design-doc/" class="result__item row-anchor" aria-label="Stop being a n00b">
+    <picture class="viewport-picture">
+        <source media="(max-width: 734px)" srcset="https://ourculturemag.com/wp-content/uploads/2020/07/Ex-Machina-notes.jpg">
+        <img class="viewport-image" src="https://ourculturemag.com/wp-content/uploads/2020/07/Ex-Machina-notes.jpg" srcset="https://ourculturemag.com/wp-content/uploads/2020/07/Ex-Machina-notes.jpg" aria-hidden="true" alt="">
+    </picture>
+    <div class="item__content">
+        <p class="item__category category_update">
+            
+                
+                Introduce
+                
+            
+        </p>
+        <h3 class="item__headline">
+            Stop being a n00b
+        </h3>
+            <p class="item__date">March 25, 2022</p>
+    </div>
+</a>
+          
+      </div>
+    </div>
+</div>
+
+
+    
+    <div class="footer-main ">
+  <div class="content-body footer-wraper">
+    <div class="footer-box">
+      <div class="foot-nav">
+        <div class="foot-nav-items">
+          <div class="item">
+            <div class="logo"></div>
+            <div class="email">Email: <a href="mailto:ramfrancis3@gmail.com">ramfrancis3@gmail.com</a></div>
+          </div>
+
+          <div class="item community">
+            <div class="item-title">Social Media</div>
+            
+              <a href="https://github.com/teelrabbit" target="_blank">Github</a>
+            
+          </div>
+
+          <div class="item resources">
+            <div class="item-title">Related</div>
+            
+              <a href="/" target="_blank">Related-Content</a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="item copyright">
+          &copy; 2024
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </body>
+    
+    
+
+    
+    
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Demo on Home</title>
+    <link>/tags/demo/</link>
+    <description>Recent content in Demo on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Floyd Li</copyright>
+    <lastBuildDate>Fri, 25 Mar 2022 15:00:53 +0800</lastBuildDate><atom:link href="/tags/demo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stop being a n00b</title>
+      <link>/posts/design-doc/</link>
+      <pubDate>Fri, 25 Mar 2022 15:00:53 +0800</pubDate>
+      
+      <guid>/posts/design-doc/</guid>
+      <description>Image Inline Introduction: In the ever-evolving landscape of software development, the journey from novice to seasoned developer is marked by various milestones. One crucial step in this progression is the realization of the importance of design documentation before diving into a project. For those still stuck in the &amp;ldquo;noob&amp;rdquo; mindset, this essay aims to shed light on the compelling reasons why embracing the discipline of creating design docs is not just a best practice but a non-negotiable element of successful project development.</description>
+    </item>
+    
+  </channel>
+</rss>
